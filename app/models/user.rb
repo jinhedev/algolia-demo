@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  has_many :champions, depedent: :destroy
+  has_many :champions, dependent: :destroy
 end
